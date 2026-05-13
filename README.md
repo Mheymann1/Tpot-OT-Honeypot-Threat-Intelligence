@@ -1,4 +1,4 @@
-# I Simulated an Oil & Gas Petroleum Tank Gauge on the Internet for 40 Days. Here's Who Showed Up.
+# I Simulated an Oil & Gas Petroleum Tank Gauge on the Internet for 27 Days. Here's Who Showed Up.
 
 > **1,000,000 attacks. 10+ nations. 2,000+ ICS/SCADA probes. A Cisco ASA honeypot hit 174,000 times.**  
 > This is what the real threat landscape facing O&G operators looks like.
@@ -31,7 +31,7 @@ Not one or two curious probes — a constant, relentless stream of connection at
 
 This is the live attack map from that first day:
 
-![Live Attack Map](screenshots/<img width="1706" height="691" alt="01_live_attack_map png  " src="https://github.com/user-attachments/assets/51818145-0566-48e1-9c73-58111badb3dc" />
+[Live Attack Map](<img width="1706" height="691" alt="01_live_attack_map png  " src="https://github.com/user-attachments/assets/a7f44546-0bd8-4fd7-9346-3f8e5db9aa1d" />
 )
 
 **24,156 attacks in a single day.** Every line on that map is a real connection attempt from a real IP address, reaching across continents to probe my honeypot infrastructure.
@@ -40,12 +40,12 @@ I wasn't surprised that attacks came. I was surprised by how fast, how automated
 
 ---
 
-## The Numbers After 40 Days
+## The Numbers After 27 Days
 
-![Full Dashboard 1 Million](screenshots/<img width="1710" height="985" alt="02_full_dashboard_1m" src="https://github.com/user-attachments/assets/0279c3ef-21cb-4588-957b-8227990eef82" />
+![Full Dashboard 1 Million](<img width="1710" height="985" alt="02_full_dashboard_1m" src="https://github.com/user-attachments/assets/9d08ef3e-e4c8-4488-b27b-0b80b797bd38" />
+)
 
-
-After forty days, the totals crossed a number I didn't expect to see:
+After twenty-seven days, the totals crossed a number I didn't expect to see:
 
 **One million attacks.**
 
@@ -64,7 +64,7 @@ After forty days, the totals crossed a number I didn't expect to see:
 | **ConPot (ICS/SCADA)** | **2,000+** |
 | **Total** | **1,000,000+** |
 
-One million attacks. Against a single honeypot VM. In forty days.
+One million attacks. Against a single honeypot VM. In twenty-seven days.
 
 Three numbers stand out above all others.
 
@@ -80,7 +80,7 @@ Three numbers stand out above all others.
 
 Here's the geographic breakdown:
 
-![Country Breakdown](screenshots/<img width="435" height="288" alt="03_country_breakdown png " src="https://github.com/user-attachments/assets/8b6906b3-0026-4f09-9cbb-b095b40d9edf" />
+![Country Breakdown](<img width="435" height="288" alt="03_country_breakdown png " src="https://github.com/user-attachments/assets/4b9f8890-e49e-46d7-9430-c107266b8f5b" />
 )
 
 The United States sitting at the top surprises people. It surprised me too, at first.
@@ -112,7 +112,7 @@ O&G operators who implement geopolitical IP blocking as a primary defense are ad
 
 This is the finding that stopped me.
 
-![Attacker IP Reputation](screenshots/<img width="427" height="288" alt="04_ip_reputation png  " src="https://github.com/user-attachments/assets/a27e6866-02fe-4aee-b0cc-3d9de250f8dd" />
+![Attacker IP Reputation](<img width="427" height="288" alt="04_ip_reputation png  " src="https://github.com/user-attachments/assets/f60d7335-5dcd-44a6-890b-8166e7719916" />
 )
 
 The overwhelming majority of attacking IPs were already **flagged as known attackers** in global threat intelligence feeds before they ever hit my honeypot. A smaller but significant slice were anonymizers — VPNs and proxy services deliberately masking origin.
@@ -129,7 +129,7 @@ Signature-based blocking alone is not an OT security strategy.
 
 This is where it gets specifically relevant to energy sector operators.
 
-![Conpot ICS SCADA Dashboard](screenshots/<img width="1710" height="838" alt="05_conpot_ics_scada png  " src="https://github.com/user-attachments/assets/8d3db6fd-8788-4540-a4b8-eb3b0470616e" />
+![Conpot ICS SCADA Dashboard](<img width="1710" height="838" alt="05_conpot_ics_scada png  " src="https://github.com/user-attachments/assets/226be88f-262a-4c1a-88ef-8ed114ce1351" />
 )
 
 The Conpot Guardian AST honeypot received **2,000+ targeted ICS/SCADA probes** — and every single one targeted **port 161 (SNMP)**.
@@ -150,14 +150,14 @@ Five nations probing a simulated petroleum tank gauge with SNMP reconnaissance q
 
 I keep coming back to **174,000 Ciscoasa exploitation attempts**.
 
-![Ciscoasa VPN Dashboard](screenshots/<img width="1710" height="803" alt="08_ciscoasa_vpn" src="https://github.com/user-attachments/assets/27009146-b1d2-498f-836d-4daff12063d5" />
+![Ciscoasa VPN Dashboard](<img width="1710" height="803" alt="08_ciscoasa_vpn" src="https://github.com/user-attachments/assets/2926923a-179f-413d-a50d-6bf23619d36c" />
 )
 
 Cisco ASA VPN appliances aren't just generic network gear. In O&G they're everywhere — pipeline control centers, offshore platform connectivity, remote wellhead monitoring, SCADA historian access, contractor VPN. They are the front door to OT networks for remote access.
 
 The Colonial Pipeline ransomware attack in May 2021 started with a single compromised VPN credential on a legacy Cisco ASA profile. One credential. That's all it took to shut down fuel supply to the US East Coast for six days.
 
-174,000 attempts against simulated Cisco ASA infrastructure in forty days is not background noise. That is deliberate, sustained targeting of the exact technology protecting O&G OT network perimeters. The attacking nations on Ciscoasa specifically: United States, Seychelles, Singapore, Russia and Romania.
+174,000 attempts against simulated Cisco ASA infrastructure in twenty-seven days is not background noise. That is deliberate, sustained targeting of the exact technology protecting O&G OT network perimeters. The attacking nations on Ciscoasa specifically: United States, Seychelles, Singapore, Russia and Romania.
 
 ---
 
@@ -165,7 +165,7 @@ The Colonial Pipeline ransomware attack in May 2021 started with a single compro
 
 This is the part that should concern every OT operator.
 
-![Credential Analysis](screenshots/<img width="1673" height="294" alt="06_credential_analysis png " src="https://github.com/user-attachments/assets/55055be5-bd5c-44bb-a200-ba630b6f3b51" />
+![Credential Analysis](<img width="1673" height="294" alt="06_credential_analysis png " src="https://github.com/user-attachments/assets/7e24e6d4-bc4f-4788-a1ab-e65a9b0aa635" />
 )
 
 Cowrie captured every username and password attempted across 585,000 SSH brute force attempts. Here's what attackers are actually using:
@@ -202,10 +202,10 @@ The same credential list hitting my SSH honeypot is hitting exposed OT assets in
 
 ## The Global Picture
 
-![Dynamic Attack Map](screenshots/<img width="576" height="284" alt="07_dynamic_attack_map png " src="https://github.com/user-attachments/assets/5af5b2cc-5290-4cd3-a68e-a51fe4a60b5d" />
+![Dynamic Attack Map](<img width="576" height="284" alt="07_dynamic_attack_map png " src="https://github.com/user-attachments/assets/a0dbb9ef-9c31-4dc8-b11c-c873c0c2772e" />
 )
 
-Every bubble on this map is a source of attacks against simulated petroleum infrastructure over forty days. Bubble size represents attack volume.
+Every bubble on this map is a source of attacks against simulated petroleum infrastructure over twenty-seven days. Bubble size represents attack volume.
 
 North America. Europe. Asia. South America. Africa. Oceania.
 
@@ -275,7 +275,7 @@ Review your firewall rules. Are any OT protocols directly internet-exposed? Modb
 
 ## The Takeaway
 
-I ran this honeypot for forty days. I got one million attacks.
+I ran this honeypot for twenty-seven days. I got one million attacks.
 
 The most targeted single piece of infrastructure was a simulated Cisco ASA VPN. The most targeted OT protocol was SNMP — reconnaissance, not exploitation yet. The most common password was nothing.
 
