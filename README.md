@@ -31,7 +31,8 @@ Not one or two curious probes — a constant, relentless stream of connection at
 
 This is the live attack map from that first day:
 
-![Live Attack Map](screenshots/01_live_attack_map.png)
+![Live Attack Map](screenshots/<img width="1706" height="691" alt="01_live_attack_map png  " src="https://github.com/user-attachments/assets/51818145-0566-48e1-9c73-58111badb3dc" />
+)
 
 **24,156 attacks in a single day.** Every line on that map is a real connection attempt from a real IP address, reaching across continents to probe my honeypot infrastructure.
 
@@ -41,7 +42,8 @@ I wasn't surprised that attacks came. I was surprised by how fast, how automated
 
 ## The Numbers After 40 Days
 
-![Full Dashboard 1 Million](screenshots/02_full_dashboard_1m.png)
+![Full Dashboard 1 Million](screenshots/<img width="1710" height="985" alt="02_full_dashboard_1m" src="https://github.com/user-attachments/assets/0279c3ef-21cb-4588-957b-8227990eef82" />
+
 
 After forty days, the totals crossed a number I didn't expect to see:
 
@@ -78,7 +80,8 @@ Three numbers stand out above all others.
 
 Here's the geographic breakdown:
 
-![Country Breakdown](screenshots/03_country_breakdown.png)
+![Country Breakdown](screenshots/<img width="435" height="288" alt="03_country_breakdown png " src="https://github.com/user-attachments/assets/8b6906b3-0026-4f09-9cbb-b095b40d9edf" />
+)
 
 The United States sitting at the top surprises people. It surprised me too, at first.
 
@@ -109,7 +112,8 @@ O&G operators who implement geopolitical IP blocking as a primary defense are ad
 
 This is the finding that stopped me.
 
-![Attacker IP Reputation](screenshots/04_ip_reputation.png)
+![Attacker IP Reputation](screenshots/<img width="427" height="288" alt="04_ip_reputation png  " src="https://github.com/user-attachments/assets/a27e6866-02fe-4aee-b0cc-3d9de250f8dd" />
+)
 
 The overwhelming majority of attacking IPs were already **flagged as known attackers** in global threat intelligence feeds before they ever hit my honeypot. A smaller but significant slice were anonymizers — VPNs and proxy services deliberately masking origin.
 
@@ -125,7 +129,8 @@ Signature-based blocking alone is not an OT security strategy.
 
 This is where it gets specifically relevant to energy sector operators.
 
-![Conpot ICS SCADA Dashboard](screenshots/05_conpot_ics_scada.png)
+![Conpot ICS SCADA Dashboard](screenshots/<img width="1710" height="838" alt="05_conpot_ics_scada png  " src="https://github.com/user-attachments/assets/8d3db6fd-8788-4540-a4b8-eb3b0470616e" />
+)
 
 The Conpot Guardian AST honeypot received **2,000+ targeted ICS/SCADA probes** — and every single one targeted **port 161 (SNMP)**.
 
@@ -145,7 +150,8 @@ Five nations probing a simulated petroleum tank gauge with SNMP reconnaissance q
 
 I keep coming back to **174,000 Ciscoasa exploitation attempts**.
 
-![Ciscoasa VPN Dashboard](screenshots/08_ciscoasa_vpn.png)
+![Ciscoasa VPN Dashboard](screenshots/<img width="1710" height="803" alt="08_ciscoasa_vpn" src="https://github.com/user-attachments/assets/27009146-b1d2-498f-836d-4daff12063d5" />
+)
 
 Cisco ASA VPN appliances aren't just generic network gear. In O&G they're everywhere — pipeline control centers, offshore platform connectivity, remote wellhead monitoring, SCADA historian access, contractor VPN. They are the front door to OT networks for remote access.
 
@@ -159,7 +165,8 @@ The Colonial Pipeline ransomware attack in May 2021 started with a single compro
 
 This is the part that should concern every OT operator.
 
-![Credential Analysis](screenshots/06_credential_analysis.png)
+![Credential Analysis](screenshots/<img width="1673" height="294" alt="06_credential_analysis png " src="https://github.com/user-attachments/assets/55055be5-bd5c-44bb-a200-ba630b6f3b51" />
+)
 
 Cowrie captured every username and password attempted across 585,000 SSH brute force attempts. Here's what attackers are actually using:
 
@@ -195,7 +202,8 @@ The same credential list hitting my SSH honeypot is hitting exposed OT assets in
 
 ## The Global Picture
 
-![Dynamic Attack Map](screenshots/07_dynamic_attack_map.png)
+![Dynamic Attack Map](screenshots/<img width="576" height="284" alt="07_dynamic_attack_map png " src="https://github.com/user-attachments/assets/5af5b2cc-5290-4cd3-a68e-a51fe4a60b5d" />
+)
 
 Every bubble on this map is a source of attacks against simulated petroleum infrastructure over forty days. Bubble size represents attack volume.
 
