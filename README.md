@@ -27,7 +27,8 @@ Within hours of deployment, the scanners detected it. Not merely a few curious p
 
 This is the live attack map from that first day:
 
-![Live Attack Map](screenshots/01_live_attack_map.png)
+![Live Attack Map](screenshots/<img width="1706" height="691" alt="01_live_attack_map png  " src="https://github.com/user-attachments/assets/87928e0d-5a14-40cf-b7d5-d22e3adb2a17" />
+)
 
 **24,156 attacks in a single day.** Every line on that map represents a real connection attempt from a real IP address, spanning continents to probe my honeypot infrastructure.
 
@@ -37,7 +38,8 @@ I wasn't surprised that attacks came. I was surprised by how quickly, how automa
 
 ## The Numbers After 27 Days
 
-![Full Dashboard 1 Million](screenshots/02_full_dashboard_1m.png)
+![Full Dashboard 1 Million](screenshots/<img width="1710" height="985" alt="02_full_dashboard_1m" src="https://github.com/user-attachments/assets/b3dd8a19-acb6-4683-84db-992f562bc2c8" />
+)
 
 After twenty-seven days, the totals exceeded a number I did not anticipate witnessing.
 
@@ -64,7 +66,8 @@ One million attacks were recorded against a single honeypot virtual machine over
 
 ## Origins and Geographic Distribution of Threats
 
-![Country Breakdown](screenshots/03_country_breakdown.png)
+![Country Breakdown](screenshots/<img width="435" height="288" alt="03_country_breakdown png " src="https://github.com/user-attachments/assets/eb557113-9399-4129-9316-6ba08f1af445" />
+)
 
 The prominence of the United States at the top of the list may initially surprise many. It was also unexpected to me at first. However, it is important to clarify the meaning behind this statistic: it does not indicate the presence of American threat actors per se. Rather, it signifies that compromised American infrastructure is being exploited as a launchpad for malicious activities. Sophisticated threat actors intentionally route their attacks through trusted nations in order to circumvent geopolitical IP restrictions. For instance, a threat actor utilizing a compromised server in Virginia would not be classified as originating from a foreign entity; instead, it appears as domestic traffic.
 
@@ -93,7 +96,8 @@ It is important to note that oil and gas operators who rely solely on geopolitic
 
 This finding stopped me.
 
-![Attacker IP Reputation](screenshots/04_ip_reputation.png)
+![Attacker IP Reputation](screenshots/<img width="427" height="288" alt="04_ip_reputation png  " src="https://github.com/user-attachments/assets/a842d770-60ec-40fd-a9db-0c9d9ac8470e" />
+)
 
 The vast majority of attacking IP addresses had already been identified as known malicious actors within global threat intelligence feeds prior to their interaction with my honeypot. A smaller yet substantial portion were associated with anonymizers, VPNs, and proxy services intentionally concealing their origins.
 
@@ -109,7 +113,8 @@ Sole reliance on signature-based blocking does not constitute a comprehensive op
 
 This becomes especially pertinent for operators within the energy sector.
 
-![Conpot ICS SCADA Dashboard](screenshots/05_conpot_ics_scada.png)
+![Conpot ICS SCADA Dashboard](screenshots/<img width="1710" height="838" alt="05_conpot_ics_scada png  " src="https://github.com/user-attachments/assets/408da166-5534-47ef-a152-e9c6735189e8" />
+)
 
 The Conpot Guardian AST honeypot successfully detected over **2,000 targeted ICS/SCADA probes**, with each probe specifically directed at **port 161 (SNMP)**.
 
@@ -129,7 +134,8 @@ These five nations are persistently probing a simulated petroleum tank gauge via
 
 I repeatedly return to the fact that there were **174,000 attempts to exploit Cisco ASA systems**.
 
-![Ciscoasa VPN Dashboard](screenshots/08_ciscoasa_vpn.png)
+![Ciscoasa VPN Dashboard](screenshots/<img width="1710" height="803" alt="08_ciscoasa_vpn" src="https://github.com/user-attachments/assets/fbe89421-e0ff-4830-be96-ef74fe20cfcf" />
+)
 
 Cisco ASA VPN appliances are not merely generic networking devices. In the oil and gas sector, they are ubiquitous: pipeline control centers, offshore platform connectivity, remote wellhead monitoring, SCADA historian access, and contractor VPNs. They function as the primary access point to operational technology (OT) networks for remote connectivity.
 
@@ -143,7 +149,8 @@ Over a span of twenty-seven days, there were 174,000 attempts against simulated 
 
 This is the part that should concern every OT operator.
 
-![Credential Analysis](screenshots/06_credential_analysis.png)
+![Credential Analysis](screenshots/<img width="1673" height="294" alt="06_credential_analysis png " src="https://github.com/user-attachments/assets/0347e979-6e60-418d-8f47-9f6849f43958" />
+)
 
 Cowrie recorded every username and password attempted during 585,000 SSH brute-force attacks. The following details demonstrate what attackers are currently utilizing:
 
@@ -177,7 +184,8 @@ The same credential list that is currently targeting my SSH honeypot is also bei
 
 ## The Global Picture
 
-![Dynamic Attack Map](screenshots/07_dynamic_attack_map.png)
+![Dynamic Attack Map](screenshots/<img width="576" height="284" alt="07_dynamic_attack_map png " src="https://github.com/user-attachments/assets/a46b3e9d-9def-4a55-8e30-065a7b2bd4e1" />
+)
 
 Each bubble on this map signifies a source of attacks directed at simulated petroleum infrastructure over a period of twenty-seven days. The size of each bubble correlates with the volume of attacks.
 
