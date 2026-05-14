@@ -27,7 +27,7 @@ Within hours of deployment, the scanners detected it. Not merely a few curious p
 
 This is the live attack map from that first day:
 
-<img width="1706" height="691" alt="01_live_attack_map png  " src="https://github.com/user-attachments/assets/87928e0d-5a14-40cf-b7d5-d22e3adb2a17" />
+![Live Attack Map](screenshots/<img width="1706" height="691" alt="01_live_attack_map png  " src="https://github.com/user-attachments/assets/87928e0d-5a14-40cf-b7d5-d22e3adb2a17" />
 
 
 **24,156 attacks in a single day.** Every line on that map represents a real connection attempt from a real IP address, spanning continents to probe my honeypot infrastructure.
