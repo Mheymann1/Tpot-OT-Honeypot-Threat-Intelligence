@@ -120,13 +120,13 @@ The Conpot Guardian AST honeypot successfully detected over **2,000 targeted ICS
 
 Unlike Modbus or S7comm, the focus was on SNMP.
 
-This observation is noteworthy. Port 161 is exploited by malicious actors to identify operational technology (OT) devices prior to launching an attack. SNMP queries reveal vital information such as device type, firmware version, manufacturer, network topology, and connected assets. This activity constitutes reconnaissance — the preliminary phase preceding an attack.
+This observation is noteworthy. Port 161 is exploited by malicious actors to identify operational technology (OT) devices prior to launching an attack. SNMP queries reveal vital information such as device type, firmware version, manufacturer, network topology, and connected assets. This activity constitutes reconnaissance,the preliminary phase preceding an attack.
 
 Threat actors conducting scans for SNMP on petroleum infrastructure are not acting randomly. They are actively searching for specific devices such as Veeder-Root tank gauges, Emerson RTUs, and Honeywell flow computers. Their intent and targets are well defined.
 
 The nations specifically engaging in targeting Conpot include the United States, the United Kingdom, Singapore, Canada, and Russia.
 
-These five nations are persistently probing a simulated petroleum tank gauge via SNMP reconnaissance queries. The activity is sustained, deliberate, and consistently targets the same port — the reconnaissance port.
+These five nations are persistently probing a simulated petroleum tank gauge via SNMP reconnaissance queries. The activity is sustained, deliberate, and consistently targets the same port,the reconnaissance port.
 
 ---
 
