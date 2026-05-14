@@ -7,11 +7,11 @@
 
 ## The Setup
 
-I aimed to address a fundamental inquiry: if a simulated Oil & Gas Operational Technology (OT) environment—designed to resemble authentic petroleum infrastructure—were placed on the internet, how soon would threat actors appear? Who would they be? What information would they seek?
+I aimed to address a fundamental inquiry: if a simulated Oil & Gas Operational Technology (OT) environment—designed to resemble authentic petroleum infrastructure were placed on the internet, how soon would threat actors appear? Who would they be? What information would they seek?
 
 Consequently, I established such an environment.
 
-Utilizing Microsoft Azure, I deployed a T-Pot HIVE honeypot environment comprising over twenty simultaneous honeypots. The principal component was Conpot, configured with the Guardian AST template, which emulates a Veeder-Root automatic tank gauge—an identical device utilized for monitoring fuel inventories within petroleum storage facilities across the oil and gas sector.
+Utilizing Microsoft Azure, I deployed a T-Pot HIVE honeypot environment comprising over twenty simultaneous honeypots. The principal component was Conpot, configured with the Guardian AST template, which emulates a Veeder-Root automatic tank gauge,an identical device utilized for monitoring fuel inventories within petroleum storage facilities across the oil and gas sector.
 
 Furthermore, I enhanced the security of the management plane by limiting Network Security Group (NSG) rules to my IP address, implementing SSH key-based authentication, encrypting disks via Azure Key Vault, and ensuring DISA STIG compliance through OpenSCAP. Conversely, I intentionally left the honeypot plane accessible without restrictions. This approach was deliberate.
 
@@ -27,8 +27,8 @@ Within hours of deployment, the scanners detected it. Not merely a few curious p
 
 This is the live attack map from that first day:
 
-![Live Attack Map](screenshots/<img width="1706" height="691" alt="01_live_attack_map png  " src="https://github.com/user-attachments/assets/87928e0d-5a14-40cf-b7d5-d22e3adb2a17" />
-)
+<img width="1706" height="691" alt="01_live_attack_map png  " src="https://github.com/user-attachments/assets/87928e0d-5a14-40cf-b7d5-d22e3adb2a17" />
+
 
 **24,156 attacks in a single day.** Every line on that map represents a real connection attempt from a real IP address, spanning continents to probe my honeypot infrastructure.
 
