@@ -303,7 +303,7 @@ Five years working within pharmaceutical manufacturing OT environments gave me a
 
 That background shapes how I approach OT security. I don't see it as an abstract compliance exercise. I see it as protecting the systems that keep real operations running.
 
-Today I work as a Contributing Security Analyst with hands-on Splunk Enterprise Security expertise, pursuing an MS in Cybersecurity and Information Assurance. This honeypot project was built to answer a question I kept asking in the field — what does the real threat landscape targeting OT infrastructure actually look like?
+Today I work as a Contributing Security Analyst with hands-on Splunk Enterprise Security expertise, hold MSC in Cybersecurity and Information Assurance. This honeypot project was built to answer a question I kept asking in the field what does the real threat landscape targeting OT infrastructure actually look like?
 
 Now I have data.
 
